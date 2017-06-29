@@ -1,0 +1,73 @@
+﻿body
+{
+    margin:0;
+    padding:0;
+}
+#headerText{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:35px;
+    margin:20px;
+}
+table{
+    width:1810px;
+}
+table,th,td{
+    border:1px solid black;
+    border-collapse:collapse;
+    opacity:0.95;
+    text-align:center;
+    border-color:#a7a7a7;
+}
+.rowColored {
+    background-color:#F5F5F5;
+}
+th {
+    background-color: #EBEBEB;
+    height:50px;
+}
+td{
+    height:35px;
+}
+.PlanetNames {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    border-width:1px 2px 1px 2px;
+    border-right-color: black;
+    border-left-color: black;
+}
+.FirstPlanet {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    border-top-color:black;
+    border-width:2px 2px 1px 2px;
+}
+.LastPlanet {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    border-bottom-color:black;
+    border-width: 1px 2px 2px 2px;
+}
+.cellsSmall {
+    width:111px;
+}
+.FirstTabs {
+    background-color: #EBEBEB;
+}
+#LenghtOfDay{
+    width:150px;
+}
+#DistanceFromSun{
+    width:205px;
+}
+#MeanTemperature{
+    width:176px
+}
+#NumberOfMoons{
+    width:130px;
+}
+#Notes{
+    width:300px;
+}
+#Blank {
+    background-color: #F5F5F5;
+}
